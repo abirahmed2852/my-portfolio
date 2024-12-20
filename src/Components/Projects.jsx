@@ -91,7 +91,7 @@ const Projects = ({ bgcolor, darkmode }) => {
     },
     {
       id: 6,
-      title: "Gallet",
+      title: "Gallery",
       lang: "Figma",
       link: "https://abirahmed2852.github.io/gallery/",
       img: gallery,
