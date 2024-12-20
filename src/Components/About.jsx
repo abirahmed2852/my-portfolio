@@ -19,7 +19,7 @@ const About = ({ bgcolor, darkmode }) => {
               I am a passionate innovator from <span className="font-bold">Bangladesh</span>,
               driven by a vision to revolutionize the tech landscape. <br />
               With a strong foundation in programming and problem-solving,
-              Ive created projects that have a big effect <br /> and use advanced technology in creative ways.
+              I have created projects that have a big effect <br /> and use advanced technology in creative ways.
               <br />{" "}
             </p>
 
