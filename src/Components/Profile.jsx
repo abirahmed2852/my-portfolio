@@ -156,22 +156,24 @@ const Profile = ({ show, setShow, darkmode, bgcolor,setCross }) => {
             darkmode === "dark" ? "bg-black" : "bg-white"
           }`}
         >
-          <div className="w-40 h-40 rounded-full  image ">
+          <div className="w-40 h-40 rounded-full  image">
             <img src={profileimg} className="w-screen rounded-lg" />
           </div>
-          <h1
-            className={`text-2xl font-normal relative lg:top-16 sm:top-24 ${
-              bgcolor === "white" ? "text-white" : "text-white"
-            }`}
-          >
-            Ahmed Abir
-          </h1>
+          <br />
           <div
-            className="passion w-fit h-8 p-2 relative lg:top-12 sm:top-20"
+            className="passion w-fit h-8 p-2 relative lg:top-14 sm:top-20"
             style={{
               background: `${bgcolor === "white" ? "#f3f6f6" : "#1D1D1D"}`,
             }}
           >
+            <h1
+              className={"text-center text-nowrap text-xl font-bold"}
+              style={{
+                color: `${bgcolor === "white" ? "#000000" : "#A6A6A6"}`,
+              }}
+            >
+              Ahmed abir
+            </h1>
             <h1
               className={"text-center text-nowrap text-sm"}
               style={{
@@ -182,7 +184,7 @@ const Profile = ({ show, setShow, darkmode, bgcolor,setCross }) => {
             </h1>
           </div>
 
-          <div className=" w-96 p-2 flex gap-2 justify-center relative lg:top-10 sm:top-14">
+          <div className=" w-96 p-2 flex gap-2 justify-center relative lg:top-16 sm:top-14">
             <div
               className="insta w-8 h-8 p-1 flex justify-center items-center rounded-lg hover:bg-blue-500  bg-slate-100"
               style={{
